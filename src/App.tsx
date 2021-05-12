@@ -20,7 +20,7 @@ export type CartItemType = {
   amount: number
 }
 
-const getProducts = async (): Promise<CartItemType> =>
+const getProducts = async (): Promise<CartItemType[]> =>
   await (await fetch('https://fakestoreapi.com/products')).json();
 
 export const App = () => {
@@ -47,7 +47,6 @@ export const App = () => {
             <Item item={item} handleAddToCart={handleAddToCart} />
           </Grid>
         ))}
-        
       </Grid>
     </Wrapper>
   );
