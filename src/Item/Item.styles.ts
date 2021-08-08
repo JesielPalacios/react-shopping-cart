@@ -8,10 +8,17 @@ export const Wrapper = styled.div`
   border: 1px solid lightblue;
   border-radius: 20px;
   height: 100%;
+  background: linear-gradient(90deg, rgba(172, 182, 229, 0.4) 0%, rgba(134, 253, 232, 0.4) 100%);
+
 
   button {
     border-radius: 0 0 20px 20px;
+    background-color:rgba(0, 0, 0, 0.15)
+  }p
+  button:hover {
+    background-color:rgba(0, 0, 0, 0.4)
   }
+
 
   img {
     max-height: 250px;
