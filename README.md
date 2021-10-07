@@ -1,3 +1,10 @@
+# Shopping Cart App
+
+Shopping Cart Web App that shows us a list of products brought from an external API (fakestoreapi.com). Products can be added to a shopping cart in which the total amount is calculated according to the number of products .
+
+# Demo
+![Image of the app working](/img/shopping-cart.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
